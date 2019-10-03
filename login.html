@@ -29,20 +29,40 @@
                 <a class="nav-link" href="about.html">About</a>
                 <a class="nav-link" href="register.html">Register</a>
 
-                <a class="nav-link" href="login.html">Login</a>
-           
+                <!-- <a class="nav-link" href="login.html">Login</a> -->
+                
+                                <!--Trigger-->
+                <a class="login-trigger" href="#" data-target="#login" data-toggle="modal">Login</a>
+
+                <div id="login" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        <button data-dismiss="modal" class="close">&times;</button>
+                        <h4>Login</h4>
+                        <form>
+                        <input type="text" name="username" class="username form-control" placeholder="Username"/>
+                        <input type="password" name="password" class="password form-control" placeholder="password"/>
+                        <input class="btn login" type="submit" value="Login" />
+                        </form>
+                    </div>
+                    </div>
+                </div>  
+                </div>
+                <!----------------------------------------------------->
         </div>
     </nav>
     </div>
 <hr>
    <!-- end of nav bar-->
 
-   <div class="container">
+ <div class="container">
         <div class="d-flex justify-content-center h-100">
             <div class="card">
                 <div class="card-header">
                     <h3>Sign In</h3>
-                    <!-- <div class="d-flex justify-content-end social_icon">
+                    <!--<div class="d-flex justify-content-end social_icon">
                         <span><i class="fab fa-facebook-square"></i></span>
                         <span><i class="fab fa-google-plus-square"></i></span>
                         <span><i class="fab fa-twitter-square"></i></span>
@@ -81,7 +101,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
