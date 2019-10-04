@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+ <style>
+
+    div.text {
+      margin: 0 auto;
+      padding: 50px;
+      align-items: center;
+      display:flexbox;
+      padding-bottom:0.5em;
+    }
+    
+    div.text label {
+      margin: 0 auto;
+      padding: 10px;
+      display: inline;
+      font-size: 108%;
+      padding-top: .1em;
+      padding-right: .25em;
+      width: 1.2em;
+      text-align: left;
+      /* float: left; */
+    }
+    
+    div.text input,
+    div.text textarea {
+      margin: 0 auto;
+      padding:20px;
+      display: inline-block;
+      font-size: 100%;
+    }
+    
+
+input:active,
+input:focus,
+input:hover,
+textarea:active,
+textarea:focus,
+textarea:hover {
+  background-color: lightgreen;
+  border-color:lightgreen;
+}
+.form{
+    border: solid;
+    text-align: center;
+    min-width: fit-content;
+    width: 50%;
+    border-radius: 20px;
+    background-color: white;
+}
+.input{border-radius: 20px;
+    font-size:18pt;height:420px;width:200px;
+
+}
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("parkingbg.jpg");
+    background-size: cover;
+  
+}
+.heading{font-size: 40px}
+    </style>
+ </head>
+ <body> 
+    <h5 class="heading">Reset your password</h5>
+
+    <div class="form">
+    <div class="text">
+        <label for="Password">New Password</label>
+        <input type="text" size="20" name="Password" id="Password"/>
+    </div>
+    
+    <div class="text">
+        <label for="New passord">Confirm password</label>
+        <input type="text" size="20" name="New passord" id="New passord"/>
+    </div>
+    <div class="form-group row">
+            <div class="col-sm-12">
+              <button type="submit" class="col-sm-2 col-form-label">Submit</button>
+            </div>
+          </div>
+        </form>
+</div>
+     <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="js/jquery-3.3.1.slim.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+ </body>
+ </html>
